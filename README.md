@@ -19,3 +19,5 @@ Error: The Angular AoT build failed. See the issues above
     at fulfilled (/home/demo/demo/hello/node_modules/@ionic/app-scripts/dist/aot/aot-compiler.js:4:58)
     at <anonymous>
 ```
+
+See https://github.com/Microsoft/typescript/issues/6496#issuecomment-360204263 for similar issue with rxjs
