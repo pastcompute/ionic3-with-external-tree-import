@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
-import { HelloClass } from '../../../shared';
+import { HelloModule, HelloClass } from '../../../shared';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { HelloClass } from '../../../shared';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HelloModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

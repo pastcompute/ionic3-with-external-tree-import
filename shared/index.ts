@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, NgModule } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 export const HELLO = 'world';
@@ -13,7 +13,9 @@ export class HelloClass {
     }
 };
 
-// @NgModule({
-
-// })
-// export class HelloModule;
+@NgModule({
+    providers: [
+        HelloClass,
+    ]
+})
+export class HelloModule {};
