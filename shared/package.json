@@ -12,5 +12,14 @@
     "rxjs": "^5.5.11",
     "zone.js": "^0.8.26",
     "typescript": "~2.6.2"
+  },
+  "peerDependencies": {
+    "@angular/compiler": "5.2.11",
+    "@angular/core": "^5.2.11",
+    "@ionic-native/splash-screen": "^4.8.0",
+    "@ionic-native/core": "4.8.0",
+    "ionic-angular": "^3.9.2",
+    "rxjs": "^5.5.11",
+    "zone.js": "^0.8.26"
   }
 }
